@@ -1,0 +1,24 @@
+{
+  "name": "backend-starter",
+  "version": "1.0.0",
+  "description": "The backend project",
+  "main": "server.js",
+  "scripts": {
+   "start": "node src/server.js",
+   "dev": "nodemon src/server.js"
+  },
+  "type": "module",
+  "keywords": [
+    "backend"
+  ],
+  "author": "Rudresh Gowda D",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
